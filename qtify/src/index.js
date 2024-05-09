@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import Button from "./Takehome/Button"
 import reportWebVitals from './reportWebVitals';
+import Search from './Takehome/Search';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Button />
+    <Search />
   </React.StrictMode>
 );
 
