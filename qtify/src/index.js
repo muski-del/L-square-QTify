@@ -9,9 +9,9 @@ import Search from './Takehome/Search';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Button />
-    <Search />
+    <App />
+    {/* <Button />
+    <Search /> */}
   </React.StrictMode>
 );
 
