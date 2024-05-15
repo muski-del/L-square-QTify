@@ -1,4 +1,5 @@
 import './HeroSection.css'
+import HeroImage from "../../assets/hero_headphones.png";
 
 export default function HeroSection() {
     return (
@@ -10,7 +11,7 @@ export default function HeroSection() {
                     <h1>Over thousands podcast episodes</h1>
                 </div>
                 <div className="hs-img-frame">
-                    <img src="hero_headphones.png" className="hs-img" alt='Headphone' />
+                    <img src={HeroImage} className="hs-img" alt='Headphone' />
                 </div>
 
             </div>
